@@ -4,6 +4,23 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "eslint.rules.customizations": [
+    {
+      "rule": "*",
+      "severity": "warn"
+    }
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": [
+    "Authed",
+    "manypkg",
+    "nextjs",
+    "Solito",
+    "Supabase",
+    "superjson",
+    "tailwindcss",
+    "TRPC",
+    "Turborepo",
+    "Typesafe"
+  ]
 }
