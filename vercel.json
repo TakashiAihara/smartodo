@@ -1,0 +1,6 @@
+{
+  "name": "smartodo",
+  "version": 2,
+  "buildCommand": "cd ../.. && npx turbo run build --filter=nextjs",
+  "installCommand": "pnpm --filter \\!expo install --store=node_modules/.pnpm-store"
+}
