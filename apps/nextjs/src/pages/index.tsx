@@ -56,7 +56,6 @@ const CreatePostForm: React.FC = () => {
           {error.data.zodError.fieldErrors.title}
         </span>
       )}
-      <Link href="/yoo">Hello</Link>
       <input
         className="mb-2 rounded bg-white/10 p-2 text-white"
         value={content}
